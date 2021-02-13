@@ -24,8 +24,6 @@ def takeoff():
     time.sleep(2)
     me.send_rc_control(0,0,0,0)
 
-def quit():
-    exit(0)
 
 me = tello.Tello()
 me.connect()
